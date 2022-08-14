@@ -47,6 +47,7 @@ const mapDispatchToProps = dispatch => {
       // },8000)
       //dispatch(INCREMENT_ACTION_ASYNC()) // using thunk , yiu can dispatch function
       dispatch({type: 'INC'})
+      dispatch({type: 'TestNonSaga'})
     },
     dec: () => {
       // dispatch(LOADER_ACTION)
