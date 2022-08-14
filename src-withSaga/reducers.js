@@ -21,6 +21,8 @@ export const counterReducer = (state=initialStateCounter , action) => {
           ...state,
           isLoading: true,
         };
+      case 'TestNonSaga':
+        console.log('TestNonSaga recieved by reducer')
       default:
         return state;
     }
